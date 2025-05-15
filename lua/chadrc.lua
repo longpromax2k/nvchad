@@ -9,11 +9,6 @@ M.base46 = {
 	theme = "github_dark",
 	transparency = true,
 
-	statusline = {
-		theme = "vscode_colored",
-		separator_style = "block",
-	},
-
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
@@ -21,10 +16,15 @@ M.base46 = {
 }
 
 -- M.nvdash = { load_on_startup = true }
--- M.ui = {
---       tabufline = {
---          lazyload = false
---      }
---}
+M.ui = {
+	statusline = {
+		theme = "vscode_colored",
+		separator_style = "block",
+	},
+
+	-- tabufline = {
+	-- 	lazyload = false,
+	-- },
+}
 
 return M
