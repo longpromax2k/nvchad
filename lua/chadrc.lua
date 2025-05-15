@@ -7,6 +7,12 @@ local M = {}
 
 M.base46 = {
 	theme = "github_dark",
+	transparency = true,
+
+	statusline = {
+		theme = "vscode_colored",
+		separator_style = "block",
+	},
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
